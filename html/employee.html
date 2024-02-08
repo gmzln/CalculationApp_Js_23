@@ -2,15 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Create new offer Page 2</title>
     <link rel="stylesheet" href="/css/employee.css" />
+    <script
+      type="module"
+      src="/vite_capstoneproject/Javascript/newpopupes6.js"
+      defer
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <style>
+      .success,
+      .error {
+        color: black;
+        padding: 2px;
+        margin: 5px 0 5px 0;
+        font-weight: 500;
+        border-radius: 10px;
+      }
+      .success {
+        background-color: #69f0ae;
+      }
+
+      .error {
+        background-color: red;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -245,90 +274,123 @@
               </svg>
             </button>
           </div>
-          <div class="general-input">
-            <div class="Input">
-              <img src="/assets/profile-pic-juan.png" alt="" class="employee-img">
-              <select name="clients" id="dropdown-Input">
-                <option value="1">
-                  Tatiana Pinzon | Frontend Developer | 120 h | 50 Euro
-                </option>
-                <option value="2">
-                  Tatiana Pinzon | Frontend Developer | 120 h | 50 Euro
-                </option>
-                <option value="3">
-                  Tatiana Pinzon | Frontend Developer | 120 h | 50 Euro
-                </option>
-              </select>
-              <div class="add-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <div class="error-notice"></div>
+          <div class="employee-list">
+            <div class="general-input">
+              <div class="Input">
+                <img
+                  src="/assets/profile-pic-juan.png"
+                  alt=""
+                  class="employee-img"
+                />
+                <p>
+                  Tatiana Pinzon | Frontend Developer | 120 h | 50
+                  Euro
+                </p>
+                <button class="add-circle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
                     <g clip-path="url(#clip0_20_937)">
-                    <path d="M14 8C14 5.79 12.21 4 10 4C7.79 4 6 5.79 6 8C6 10.21 7.79 12 10 12C12.21 12 14 10.21 14 8ZM12 8C12 9.1 11.1 10 10 10C8.9 10 8 9.1 8 8C8 6.9 8.9 6 10 6C11.1 6 12 6.9 12 8Z" fill="black"/>
-                    <path d="M2 18V20H18V18C18 15.34 12.67 14 10 14C7.33 14 2 15.34 2 18ZM4 18C4.2 17.29 7.3 16 10 16C12.69 16 15.77 17.28 16 18H4Z" fill="black"/>
-                    <path d="M23 10H17V12H23V10Z" fill="black"/>
+                      <path
+                        d="M14 8C14 5.79 12.21 4 10 4C7.79 4 6 5.79 6 8C6 10.21 7.79 12 10 12C12.21 12 14 10.21 14 8ZM12 8C12 9.1 11.1 10 10 10C8.9 10 8 9.1 8 8C8 6.9 8.9 6 10 6C11.1 6 12 6.9 12 8Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M2 18V20H18V18C18 15.34 12.67 14 10 14C7.33 14 2 15.34 2 18ZM4 18C4.2 17.29 7.3 16 10 16C12.69 16 15.77 17.28 16 18H4Z"
+                        fill="black"
+                      />
+                      <path d="M23 10H17V12H23V10Z" fill="black" />
                     </g>
                     <defs>
-                    <clipPath id="clip0_20_937">
-                    <rect width="24" height="24" fill="white"/>
-                    </clipPath>
+                      <clipPath id="clip0_20_937">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
                     </defs>
-                    </svg>
+                  </svg>
+                </button>
               </div>
             </div>
-          <div class="general-input">
-            <div class="Input">
-              <img src="/assets/profile-pic-juan.png" alt="" class="employee-img">
-              <select name="clients" id="dropdown-Input">
-                <option value="1">
-                  Choose
-                </option>
-                <option value="2">
-                  Tatiana Pinzon | Frontend Developer | 120 h | 50 Euro
-                </option>
-                <option value="3">
-                  Tatiana Pinzon | Frontend Developer | 120 h | 50 Euro
-                </option>
-              </select>
-              <div class="add-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div class="general-input">
+              <div class="Input">
+                <img
+                  src="/assets/profile-pic-juan.png"
+                  alt=""
+                  class="employee-img"
+                />
+                <p>
+                  Tatiana Pinzon | Frontend Developer | 120 h | 50
+                  Euro
+                </p>
+                <button class="add-circle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
                     <g clip-path="url(#clip0_20_937)">
-                    <path d="M14 8C14 5.79 12.21 4 10 4C7.79 4 6 5.79 6 8C6 10.21 7.79 12 10 12C12.21 12 14 10.21 14 8ZM12 8C12 9.1 11.1 10 10 10C8.9 10 8 9.1 8 8C8 6.9 8.9 6 10 6C11.1 6 12 6.9 12 8Z" fill="black"/>
-                    <path d="M2 18V20H18V18C18 15.34 12.67 14 10 14C7.33 14 2 15.34 2 18ZM4 18C4.2 17.29 7.3 16 10 16C12.69 16 15.77 17.28 16 18H4Z" fill="black"/>
-                    <path d="M23 10H17V12H23V10Z" fill="black"/>
+                      <path
+                        d="M14 8C14 5.79 12.21 4 10 4C7.79 4 6 5.79 6 8C6 10.21 7.79 12 10 12C12.21 12 14 10.21 14 8ZM12 8C12 9.1 11.1 10 10 10C8.9 10 8 9.1 8 8C8 6.9 8.9 6 10 6C11.1 6 12 6.9 12 8Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M2 18V20H18V18C18 15.34 12.67 14 10 14C7.33 14 2 15.34 2 18ZM4 18C4.2 17.29 7.3 16 10 16C12.69 16 15.77 17.28 16 18H4Z"
+                        fill="black"
+                      />
+                      <path d="M23 10H17V12H23V10Z" fill="black" />
                     </g>
                     <defs>
-                    <clipPath id="clip0_20_937">
-                    <rect width="24" height="24" fill="white"/>
-                    </clipPath>
+                      <clipPath id="clip0_20_937">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
                     </defs>
-                    </svg>
+                  </svg>
+                </button>
               </div>
             </div>
-          <div class="general-input">
-            <div class="Input">
-              <img src="/assets/profile-pic-juan.png" alt="" class="employee-img">
-              <select name="clients" id="dropdown-Input">
-                <option value="1">Choose
-                </option>
-                <option value="2">
-                  Tatiana Pinzon | Frontend Developer | 120 h | 50 Euro
-                </option>
-                <option value="3">
-                  Tatiana Pinzon | Frontend Developer | 120 h | 50 Euro
-                </option>
-              </select>
-              <div class="add-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div class="general-input">
+              <div class="Input">
+                <img
+                  src="/assets/profile-pic-juan.png"
+                  alt=""
+                  class="employee-img"
+                />
+                <p>
+                  Tatiana Pinzon | Frontend Developer | 120 h | 50
+                  Euro
+                </p>
+                <button class="add-circle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
                     <g clip-path="url(#clip0_20_937)">
-                    <path d="M14 8C14 5.79 12.21 4 10 4C7.79 4 6 5.79 6 8C6 10.21 7.79 12 10 12C12.21 12 14 10.21 14 8ZM12 8C12 9.1 11.1 10 10 10C8.9 10 8 9.1 8 8C8 6.9 8.9 6 10 6C11.1 6 12 6.9 12 8Z" fill="black"/>
-                    <path d="M2 18V20H18V18C18 15.34 12.67 14 10 14C7.33 14 2 15.34 2 18ZM4 18C4.2 17.29 7.3 16 10 16C12.69 16 15.77 17.28 16 18H4Z" fill="black"/>
-                    <path d="M23 10H17V12H23V10Z" fill="black"/>
+                      <path
+                        d="M14 8C14 5.79 12.21 4 10 4C7.79 4 6 5.79 6 8C6 10.21 7.79 12 10 12C12.21 12 14 10.21 14 8ZM12 8C12 9.1 11.1 10 10 10C8.9 10 8 9.1 8 8C8 6.9 8.9 6 10 6C11.1 6 12 6.9 12 8Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M2 18V20H18V18C18 15.34 12.67 14 10 14C7.33 14 2 15.34 2 18ZM4 18C4.2 17.29 7.3 16 10 16C12.69 16 15.77 17.28 16 18H4Z"
+                        fill="black"
+                      />
+                      <path d="M23 10H17V12H23V10Z" fill="black" />
                     </g>
                     <defs>
-                    <clipPath id="clip0_20_937">
-                    <rect width="24" height="24" fill="white"/>
-                    </clipPath>
+                      <clipPath id="clip0_20_937">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
                     </defs>
-                    </svg>
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
@@ -480,87 +542,102 @@
         </div>
       </footer>
     </div>
-  <div class="overlay">
-    <div class="pop-up-window">
-      <div class="back-button">
-        <a href="./employee.html">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M4 8L3.29289 8.70711L2.58579 8L3.29289 7.29289L4 8ZM9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18L9 20ZM8.29289 13.7071L3.29289 8.70711L4.70711 7.29289L9.70711 12.2929L8.29289 13.7071ZM3.29289 7.29289L8.29289 2.29289L9.70711 3.70711L4.70711 8.70711L3.29289 7.29289ZM4 7L14.5 7L14.5 9L4 9L4 7ZM14.5 20L9 20L9 18L14.5 18L14.5 20ZM21 13.5C21 17.0898 18.0898 20 14.5 20L14.5 18C16.9853 18 19 15.9853 19 13.5L21 13.5ZM14.5 7C18.0899 7 21 9.91015 21 13.5L19 13.5C19 11.0147 16.9853 9 14.5 9L14.5 7Z" fill="#737373"/>
+    <div class="overlay hidden">
+      <div class="pop-up-window">
+        <div class="back-button">
+          <a href="./employee.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M4 8L3.29289 8.70711L2.58579 8L3.29289 7.29289L4 8ZM9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18L9 20ZM8.29289 13.7071L3.29289 8.70711L4.70711 7.29289L9.70711 12.2929L8.29289 13.7071ZM3.29289 7.29289L8.29289 2.29289L9.70711 3.70711L4.70711 8.70711L3.29289 7.29289ZM4 7L14.5 7L14.5 9L4 9L4 7ZM14.5 20L9 20L9 18L14.5 18L14.5 20ZM21 13.5C21 17.0898 18.0898 20 14.5 20L14.5 18C16.9853 18 19 15.9853 19 13.5L21 13.5ZM14.5 7C18.0899 7 21 9.91015 21 13.5L19 13.5C19 11.0147 16.9853 9 14.5 9L14.5 7Z"
+                fill="#737373"
+              />
             </svg>
-        </a>
-      </div>
-      <div class="popup-header">
-        <img src="/assets/Person.png" alt="picture" />
-        <div class="name">
-          <h1>First Name / last Name</h1>
-          <h2>Jobtitle</h2>
+          </a>
         </div>
-      </div>
-  
-      <main>
-        <div class="personalInfo">
-          <span>Personal Information</span>
-  
-          <span class="personalInput"
-            ><label for="name">Name:</label>
-            <input type="text" id="name" name="name"
-          /></span>
-  
-          <span class="personalInput"
-            ><label for="date">Date of Birth:</label>
-            <input type="text" id="date" name="date"
-          /></span>
-  
-          <span class="personalInput"
-            ><label for="email">Email:</label>
-            <input type="text" id="email" name="email"
-          /></span>
-  
-          <span class="personalInput"
-            ><label for="phone">Phone:</label>
-            <input type="text" id="phone" name="phone"
-          /></span>
+        <div class="popup-header">
+          <img src="/assets/Person.png" alt="picture" />
+          <div class="name">
+            <h1>Nikita Dhawan</h1>
+            <h2>UX Designer</h2>
+          </div>
         </div>
-  
-        <div class="companyInfo">
-          <span>Company Information</span>
-  
-          <span class="personalInput">
-            <label for="phone">Job Title:</label>
-            <input type="text" id="phone" name="phone" />
-          </span>
-  
-          <span class="personalInput">
-            <label for="phone">Department:</label>
-            <input type="text" id="phone" name="phone" />
-          </span>
-  
-          <span class="personalInput">
-            <label for="phone">Start Date:</label>
-            <input type="text" id="phone" name="phone" />
-          </span>
-  
-          <span class="personalInput">
-            <label for="phone">End Date:</label>
-            <input type="text" id="phone" name="phone" />
-          </span>
-  
-          <span class="personalInput">
-            <label for="phone">Employment Status:</label>
-            <input type="text" id="phone" name="phone" />
-          </span>
-  
-          <span class="personalInput">
-            <label for="phone">Salery:</label>
-            <input type="text" id="phone" name="phone" />
-          </span>
-        </div>
-      </main>
-  
-      <div class="popup-add-employee">
-        <button>Add Employee</button>
+        <form class="form-container">
+          <div class="personalInfo">
+            <span>Personal Information</span>
+
+            <span class="personalInput"
+              ><label for="name">Name:</label>
+              <input type="text" id="name" name="name"
+            /></span>
+
+            <span class="personalInput"
+              ><label for="dateofbirth">Date of Birth:</label>
+              <input type="text" id="dateofbirth" name="dateofbirth"
+            /></span>
+
+            <span class="personalInput"
+              ><label for="email">Email:</label>
+              <input type="text" id="email" name="email"
+            /></span>
+
+            <span class="personalInput"
+              ><label for="phone">Phone:</label>
+              <input type="text" id="phone" name="phone"
+            /></span>
+          </div>
+
+          <div class="companyInfo">
+            <span>Company Information</span>
+            <span class="personalInput">
+              <label for="jobtitle">Job Title:</label>
+              <input type="text" id="jobtitle" name="jobtitle" />
+            </span>
+            <span class="personalInput">
+              <label for="department">Department:</label>
+              <input type="text" id="department" name="department" />
+            </span>
+            <span class="personalInput">
+              <label for="startdate">Start Date:</label>
+              <input type="text" id="startdate" name="startdate" />
+            </span>
+            <span class="personalInput">
+              <label for="enddate">End Date:</label>
+              <input type="text" id="enddate" name="enddate" />
+            </span>
+            <span class="personalInput">
+              <label for="employeestatus">Employment Status:</label>
+              <input
+                type="text"
+                id="employeestatus"
+                name="employeestatus"
+              />
+            </span>
+            <span class="personalInput">
+              <label for="salary">Salery:</label>
+              <input type="text" id="salary" name="salary" />
+            </span>
+            <span class="personalInput">
+              <label for="workinghour">Hours/Week:</label>
+              <input
+                type="text"
+                id="workinghour"
+                name="workinghour"
+              />
+            </span>
+          </div>
+          <div class="popup-add-employee">
+            <button type="submit" class="save-employee">
+              Add Employee
+            </button>
+          </div>
+        </form>
       </div>
     </div>
-  </div>
   </body>
 </html>
