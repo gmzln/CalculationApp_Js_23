@@ -10,5 +10,5 @@ The Design is not mine. See my other repository for the UX/UI Design i did. Unfo
 
 ![screenshot](https://github.com/gmzln/assetsReadMe/blob/main/Screenshot%202024-02-08%20at%2014.11.31.png)
 
-![screenshot]([https://github.com/gmzln/assetsReadMe/blob/main/Screenshot%202024-02-08%20at%2014.11.31.png](https://github.com/gmzln/assetsReadMe/blob/main/Screenshot%202024-02-08%20at%2014.08.32.png)https://github.com/gmzln/assetsReadMe/blob/main/Screenshot%202024-02-08%20at%2014.08.32.png)
+![screenshot](https://github.com/gmzln/assetsReadMe/blob/main/Screenshot%202024-02-08%20at%2014.08.32.png)
 
